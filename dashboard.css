@@ -30,6 +30,8 @@
   display: flex;
   align-items: center;
   padding-top: 10px;
+  gap: 20px;
+  font-size: 20px;
 }
 
 .sidebar a:hover {
@@ -78,4 +80,9 @@
   border-radius: 4px;
   cursor: pointer;
   z-index: 1000;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 200, "opsz" 48;
+  color: aquamarine;
 }
