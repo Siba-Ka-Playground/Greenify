@@ -1,9 +1,15 @@
+body {
+  background-color: #f6eacc;
+}
 .container {
   display: flex;
   height: 100%;
   transition: margin-left 0.3s ease-in-out;
 }
-
+.app_name {
+  text-shadow: 1px 1px 2px #14aa0e;
+  color: #1d5c1b;
+}
 .sidebar {
   width: 50px;
   background-color: #1d5c1b;
@@ -14,13 +20,12 @@
   padding: 20px;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   transform: translateX(0);
-  position: absolute;
-  height: 187vh;
+  position: fixed;
+  height: 160vh;
 }
 
 .sidebar.open {
   width: 150px;
-  height: 229vh;
 }
 
 .sidebar a {
@@ -76,8 +81,15 @@
   line-height: 1;
   text-align: center;
 }
-.alternatives {
-  background-color: aqua;
+#productDropdown {
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+  background-color: white;
+}
+.alternative {
+  display: flex;
+  justify-items: center;
 }
 .blog {
   display: flex;
@@ -86,13 +98,25 @@
   flex-wrap: wrap;
 }
 .sub_blog {
-  height: 300px;
-  width: 420px;
+  height: 335px;
+  width: 374px;
   background-color: #ffffdd;
   box-shadow: 1px 1px 5px 1px;
+  text-align: center;
+  padding: 25px;
+}
+.mini_info {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.blog_link {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
 }
 .menu-button {
-  position: absolute;
+  position: fixed;
   top: 40px;
   left: 30px;
   background-color: #669465;
@@ -111,7 +135,38 @@
   text-align: center;
   background-color: bisque;
   margin: 4px;
+  padding: 20px;
 }
 #topic {
   text-align: center;
+}
+.img {
+  border-radius: 15px;
+  box-shadow: 1px 0px 9px 2px;
+}
+form,
+input,
+textarea,
+button {
+  font-size: 20px;
+  font-weight: bold;
+}
+button {
+  background-color: #1d5c1b;
+  border-radius: 10px;
+  margin-top: 5px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+.last_quote {
+  margin: 0;
+}
+#contact {
+  font-weight: bold;
+}
+#converter,
+#feedback,
+#topic,
+#blogs {
+  text-decoration: underline;
 }
