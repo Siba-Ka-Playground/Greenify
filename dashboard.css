@@ -40,6 +40,10 @@
 .top {
   margin-top: 60px;
 }
+
+.detail {
+  opacity: 0;
+}
 .content {
   flex-grow: 1;
   padding: 20px;
@@ -74,7 +78,4 @@
   border-radius: 4px;
   cursor: pointer;
   z-index: 1000;
-}
-.material-symbols-outlined {
-  font-size: 50px;
 }
