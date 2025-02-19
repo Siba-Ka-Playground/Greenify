@@ -6,7 +6,7 @@
 
 .sidebar {
   width: 50px;
-  background-color: #077c03;
+  background-color: #1d5c1b;
   color: white;
   display: flex;
   flex-direction: column;
@@ -15,11 +15,12 @@
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   transform: translateX(0);
   position: absolute;
-  height: 180vh;
+  height: 187vh;
 }
 
 .sidebar.open {
   width: 150px;
+  height: 229vh;
 }
 
 .sidebar a {
@@ -50,7 +51,7 @@
   flex-grow: 1;
   padding: 20px;
   padding-left: 60px;
-  background-color: antiquewhite;
+  background-color: #f6eacc;
   width: 100%;
   margin-left: 50px;
 }
@@ -65,8 +66,11 @@
   margin-bottom: 20px;
   text-align: center;
   display: flex;
+  gap: 25%;
 }
-
+#logo {
+  border-radius: 100%;
+}
 .text {
   font-size: 16px;
   line-height: 1;
@@ -84,13 +88,14 @@
 .sub_blog {
   height: 300px;
   width: 420px;
-  background-color: beige;
+  background-color: #ffffdd;
+  box-shadow: 1px 1px 5px 1px;
 }
 .menu-button {
   position: absolute;
   top: 40px;
   left: 30px;
-  background-color: #ffffff;
+  background-color: #669465;
   color: rgb(0, 0, 0);
   padding: 10px;
   border-radius: 4px;
@@ -100,11 +105,12 @@
 
 .material-symbols-outlined {
   font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 200, "opsz" 48;
-  color: aquamarine;
+  color: #ccffd0;
 }
 .feedback {
   text-align: center;
   background-color: bisque;
+  margin: 4px;
 }
 #topic {
   text-align: center;
